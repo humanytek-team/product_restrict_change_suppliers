@@ -29,8 +29,10 @@
     'author': "Humanytek",
     'website': "http://www.humanytek.com",
     'category': 'Purchases',
-    'version': '1.0.0',
-    'depends': ['purchase', ],
+    'version': '9.0.1.0.1',
+    'depends': [
+        'purchase',
+        'product_purchase_manager_user'],
     'data': [
         'views/product_view.xml',
     ],
