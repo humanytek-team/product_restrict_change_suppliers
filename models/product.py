@@ -29,8 +29,7 @@ class ProductTemplate(models.Model):
     _inherit = "product.template"
 
     authorize_change_suppliers = fields.Boolean(
-        'Authorize change of suppliers',
-        groups='purchase.group_purchase_manager')
+        'Authorize change of suppliers')
 
     @api.multi
     def write(self, vals):
